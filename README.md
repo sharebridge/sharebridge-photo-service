@@ -4,7 +4,20 @@
 
 ## Overview
 
-This repository is part of the ShareBridge project - a platform for dignified charitable giving.
+This repository contains the **Photo Verification Service** - AI-powered photo analysis for delivery confirmation and fraud prevention.
+
+**Key Responsibilities:**
+- 📸 Delivery photo verification and validation
+- 👤 Face detection for duplicate seeker identification
+- 🔒 Privacy-preserving facial recognition (hashed embeddings)
+- 🚫 Fraud detection (same person, multiple accounts)
+- 🗑️ Automatic photo deletion after 30 days (privacy compliance)
+- 🖼️ Image quality assessment
+- 🏷️ Object detection (food items, location landmarks)
+- 📊 Similarity scoring between photos
+- 🛡️ GDPR/DPDPA compliant photo handling
+
+**Technology Stack:** Python with OpenCV, TensorFlow/PyTorch, Azure Cognitive Services or AWS Rekognition
 
 For overall project context, see the [main ShareBridge repository](https://github.com/sharebridge/sharebridge).
 
